@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+
+  jupyter:
+    build:
+      context: .
+    ports:
+     - "8888:8888"
+    tty: true
+    networks:
+      default:
+      app_network:
+        aliases:
+          - python-dev
+
+networks:
+  app_network:
+    external: true
