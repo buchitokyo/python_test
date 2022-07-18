@@ -4,10 +4,12 @@ services:
 
   jupyter:
     build:
-      context: .
+      context: ./docker
     ports:
      - "8888:8888"
     tty: true
+    volumes:
+      - './docker:/work'
     networks:
       default:
       app_network:
