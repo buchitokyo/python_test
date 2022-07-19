@@ -13,6 +13,7 @@ WORKDIR /opt
 # archive -> https://repo.continuum.io/archive/
 RUN wget https://repo.continuum.io/archive/Anaconda3-2019.10-Linux-x86_64.sh
 
+# - u upgrading
 RUN /bin/bash /opt/Anaconda3-2019.10-Linux-x86_64.sh -b -p /opt/anaconda3
 
 RUN rm -f Anaconda3-2019.10-Linux-x86_64.sh
