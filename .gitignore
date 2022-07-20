@@ -1,3 +1,6 @@
 /.DS_Store
 /docker/checkpoint
 /docker/mysql/*.xlsx
+/docker/src/*.xlsx
+/docker/excel/*.xlsx
+/docker/src
