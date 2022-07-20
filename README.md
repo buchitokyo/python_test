@@ -8,4 +8,5 @@ docker rename old_name new_name
 docker tag IMAGE_ID IMAGE_NAME:TAG  
 OR  
 docker-compose u -d --build  
-https://pystyle.info/jupyter-change-checkpoint-directory/   
+https://pystyle.info/jupyter-change-checkpoint-directory/  
+https://www.pep4.net/datascience/4408/  
