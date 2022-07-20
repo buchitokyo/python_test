@@ -4,3 +4,4 @@
 /docker/src/*.xlsx
 /docker/excel/*.xlsx
 /docker/src
+/docker/.DS_Store
