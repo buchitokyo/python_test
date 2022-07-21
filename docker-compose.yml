@@ -10,7 +10,7 @@ services:
      - "8888:8888"
     tty: true
     volumes:
-      - './docker:/work'
+      - './src:/work'
     networks:
       default:
       app_network:
